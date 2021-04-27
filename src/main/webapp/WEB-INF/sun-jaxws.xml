@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints
+	xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	<endpoint name="MerchantService"
+		implementation="com.demo.merchantapp.service.MerchantServiceImpl"
+		url-pattern="/merchant-service" />
+
+	<endpoint name="ProductService"
+		implementation="com.demo.merchantapp.service.ProductServiceImpl"
+		url-pattern="/product-service" />
+
+	<endpoint name="MerchantProductService"
+		implementation="com.demo.merchantapp.service.MerchantProductServiceImpl"
+		url-pattern="/merchant-product-service" />
+</endpoints>
